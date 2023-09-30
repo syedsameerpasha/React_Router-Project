@@ -1,0 +1,32 @@
+diff between a and link
+ similar but when u use a the page will reload but in react u cant do that so link
+
+ u write href in a but in link we write "to"
+
+ 1:navlink will give u more additional things then link
+
+ we write a callback in it and u will have a direct access of one variable called isActive
+  and in back ticks u will write it and by using ternary operator
+
+
+
+  //Routerprovider component will take one prop that is router,,and u have to make one router now
+  createbrowserrouter is amethod u have to craeter a router using that
+
+  outlet a power thing which react dom gives so that where u give u can change the things dynamicallyy
+  between header and footer i give means header footer is constant and u can change in between
+
+  and if u want to use the layout component u yhave to tell in index so that i am giving everything indside of it
+
+
+  u can create router like this also
+  const router=createBrowserRouter(
+    createRoutesFromElements(
+        <Route path='/' element={<Layout/>}>
+        <Route path='' element={<Home/>}/>
+        </Route>
+    )
+  )
+
+
+  u als0 can do using loader if u want to get data from apis
